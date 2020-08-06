@@ -34,6 +34,7 @@ allprojects {
 }
 
 dependencies {
-    provided 'com.google.android.gms:play-services-drive:+'
-    provided 'com.facebook.react:react-native:+'
+    implementation 'com.google.android.gms:play-services-drive:+'
+    implementation 'com.facebook.react:react-native:+'
+    implementation 'com.android.support:support-annotations:28.0.0'
 }
