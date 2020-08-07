@@ -61,7 +61,6 @@ public class CopyToGoogleDriveTask implements GoogleApiClient.ConnectionCallback
     private void createFileInFolders(DriveFolder parentFolder, List<String> pathParts, RNCloudFsModule.SourceUri sourceUri) {
         if (pathParts.size() > 1)
             parentFolder = googleApiClient.createFolders(parentFolder, pathParts.subList(0, pathParts.size() - 1));
-
         try {
             String fileName = googleApiClient.createFile(parentFolder, sourceUri, pathParts.get(0), mimeType);
             promise.resolve(fileName);
