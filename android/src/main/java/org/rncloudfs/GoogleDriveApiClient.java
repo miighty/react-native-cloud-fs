@@ -2,10 +2,12 @@ package org.rncloudfs;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+
 import android.text.TextUtils;
 import android.util.Log;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.WritableMap;
