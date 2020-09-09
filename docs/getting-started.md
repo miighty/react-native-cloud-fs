@@ -4,7 +4,7 @@ An example project can be found at [react-native-cloud-fs-example](https://githu
 
 This package is not released to npm (yet)...
 
-    npm install react-native-cloud-fs@https://github.com/npomfret/react-native-cloud-fs.git --save
+    npm install react-native-cloud-fs@https://github.com/miighty/react-native-cloud-fs.git --save
     react-native link react-native-cloud-fs
 
 ### iOS
